@@ -71,6 +71,7 @@ ggplot(data=averagepattern, aes(x=interval, y=stepmean)) +
 maxsteps <- which.max(averagepattern$stepmean)
 maxstepstiming <-  gsub("([0-9]{1,2})([0-9]{2})", "\\1:\\2", averagepattern[maxsteps,'interval'])
 ```
+##### maximum number of step interval time: 8:35
 
 ## Imputing missing values
 

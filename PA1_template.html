@@ -168,6 +168,9 @@ stepsdailymedian &lt;- median(stepsdaily)</code></pre>
 <h4>Which 5-minute interval, on average accross all the days in the dataset, contains the maximum number of steps?</h4>
 <pre class="r"><code>maxsteps &lt;- which.max(averagepattern$stepmean)
 maxstepstiming &lt;-  gsub(&quot;([0-9]{1,2})([0-9]{2})&quot;, &quot;\\1:\\2&quot;, averagepattern[maxsteps,'interval'])</code></pre>
+<div id="maximum-number-of-step-interval-time-835" class="section level5">
+<h5>maximum number of step interval time: 8:35</h5>
+</div>
 </div>
 </div>
 <div id="imputing-missing-values" class="section level2">
